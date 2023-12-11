@@ -10,7 +10,7 @@ function mincost(arr)
 // return the min cost
 	let min_cost=0;
 	arr.sort(comparable)
-	while(arr.length>0)
+	while(arr.length>1)
 		{
 			let num1=arr.shift();
 			let num2=arr.shift();
